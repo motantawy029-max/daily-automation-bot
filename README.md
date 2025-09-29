@@ -28,6 +28,9 @@ Automated daily summary workflow built with **n8n** ⚡ that fetches current �
 - 🖼 `screenshots/` — (recommended) add screenshots of the workflow and sample output.
 
 > ⚠️ **Important:** This repository does **not** contain API keys or credentials. You must provide them locally in your n8n instance.
+>
+> 
+<img width="960" height="510" alt="news work flow n8n" src="https://github.com/user-attachments/assets/7e3b62d2-f231-4a31-a91f-1a317e989ae1" />
 
 ---
 
@@ -41,6 +44,9 @@ Automated daily summary workflow built with **n8n** ⚡ that fetches current �
    - 📧 **Gmail** (optional): create OAuth credentials in Google Cloud Console and add Gmail OAuth2 credential in n8n.
 3. **🔗 Connect credentials to nodes**
    - After importing, open each node that requires credentials (Gmail/Telegram) and select the correct credential (or create new one).
+  
+   - <img width="960" height="510" alt="news wf gmail" src="https://github.com/user-attachments/assets/accea7f4-6c1e-49da-93b2-74a0b22812f0" />
+
 4. **✅ Test**
    - Run the OpenWeather and News nodes individually (▶️ Execute Node) to ensure they return valid JSON.
    - Execute the `BuildEmail` (Function) node to preview `bodyHtml` and `telegramText`.
@@ -50,3 +56,4 @@ Automated daily summary workflow built with **n8n** ⚡ that fetches current �
 
 ## 🧩 env.template
 Use this file as a guide to store your keys (locally, not in Git).
+
